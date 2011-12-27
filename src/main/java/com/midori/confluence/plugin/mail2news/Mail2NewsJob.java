@@ -1055,12 +1055,13 @@ public class Mail2NewsJob extends AbstractJob {
 			{
 				/* found a matching user for the email address of the sender */
 				creator = (User)l.get(0);
-				creatorName = creator.getFullName();
+				creatorName = creator.getName();
 			}
-		}
 
+		}
 		//this.log.info("creatorName: " + creatorName);
 		//this.log.info("creator: " + creator);
+
 		blogPost.setCreatorName(creatorName);
 
 		if (creator != null)
