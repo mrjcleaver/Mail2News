@@ -13,6 +13,7 @@
     <trigger key="mail2newsTrigger" name="mail2news Trigger">       
         <job key="mail2news-plugin" />       
         <schedule cron-expression="0 0/5 * * * ?" />
+		<managed editable="true" keepingHistory="true" canRunAdhoc="true" canDisable="true"/>
         <description>The trigger which executes the mail2news job every 5 minutes.</description>
     </trigger>
     

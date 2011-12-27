@@ -12,7 +12,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.midori.confluence.plugin</groupId>
     <artifactId>mail2news</artifactId>
-    <version>1.8.2</version>
+    <version>1.8.3</version>
 
     <organization>
         <name>Stimmt AG - Midori</name>
@@ -108,8 +108,9 @@
     </distributionManagement>
 
     <properties>
-        <confluence.version>3.5</confluence.version>
-        <confluence.data.version>3.5</confluence.data.version>
+        <confluence.version>4.1</confluence.version>
+        <confluence.data.version>4.1</confluence.data.version>
+		<atlassian.plugin.application.version.min>3.5</atlassian.plugin.application.version.min>
     </properties>
 
 </project>
